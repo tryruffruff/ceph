@@ -166,7 +166,7 @@ void PrefetchImageCache<I>::init(Context *on_finish) {
   
   
 
-  ImageCacheEntry.insert(std::make_pair<uint64_t, ceph::bufferlist *>(be, bl));
+  //ImageCacheEntry.insert(std::make_pair<uint64_t, ceph::bufferlist *>(be, bl));
 
   // //arbitrary size 26, could be any size
   // deque<char> deque1(26, '0');
